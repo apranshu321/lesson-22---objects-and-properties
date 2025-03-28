@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head><title>homework</title></head>
+<body>
+    <h1>sum of arguments and trignometric values calculated</h1>
+    <p id="demo"></p>
+    <script>
+
+function sumALL(){
+    var sum=0;
+    for(i=0;i< arguments.length;i++){
+        sum+= arguments[i]; }
+        return sum;
+}
+document.getElementById("demo").innerHTML=sumALL(345,678,123,456,789)
+    var value_one=Math.sin(56)
+    document.write("sin 56 is:"+value_one+"<br>")
+    var value_one=Math.tan(43)
+    document.write("sin 43 is:"+value_one+"<br>")
+    var value_one=Math.cos(95)
+    document.write("sin 95 is:"+value_one+"<br>")
+
+    </script>
+</body>
+</html>
